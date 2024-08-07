@@ -18,7 +18,7 @@ const routes = [
     { path: "/dashboard", component: DashBoardComponent },
     {
         path: '/:NotFound(.*)*', component: ErrorComponent, meta: {
-            hidenavBar: true
+            hideNavbar: true
         }
     },
 ]
